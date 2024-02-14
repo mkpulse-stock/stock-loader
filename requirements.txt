@@ -1,2 +1,6 @@
 Flask==3.0.0
 waitress==2.1.2
+yfinance==0.2.35
+yahoo_fin==0.8.9.1
+pandas==2.2.0
+google-cloud-storage

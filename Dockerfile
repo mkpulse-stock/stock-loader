@@ -6,6 +6,7 @@ COPY . /app
 WORKDIR /app
 
 # Install the dependent libraries
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Start the server

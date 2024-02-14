@@ -1,0 +1,7 @@
+services:
+  stock-loader:
+    build: .
+    container_name: "stock-loader"
+    image: "gaespa007648/stock-loader:v1"
+    ports: 
+      - "5000:8080"
